@@ -15,7 +15,14 @@ body {
     color: #333; /* Dark text for readability */
 
 }
-
+#content {
+            max-width: 800px; /* Limit width */
+            margin: 0 auto; /* Center horizontally */
+            padding: 20px;
+        }
+p {
+    text-align: justify; /* Optional: Align text for better readability */
+}
 header {
     text-align: center;
     padding: 20px;
